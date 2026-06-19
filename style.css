@@ -1,0 +1,31 @@
+/* ============================================
+   MERIDIAN HEALTH — Design tokens
+============================================ */
+:root {
+  --ink: #2A2622;
+  --paper: #FAF7F2;
+  --sand: #E8DCC8;
+  --sand-deep: #DCCBAE;
+  --pine: #0F3D3E;
+  --pine-light: #18534F;
+  --pine-pale: #E4EDE8;
+  --terracotta: #C75C3D;
+  --terracotta-dark: #A8472C;
+  --sage: #5A8C7A;
+  --line: rgba(15, 61, 62, 0.14);
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --shadow-card: 0 2px 4px rgba(42,38,34,0.04), 0 12px 28px rgba(15,61,62,0.08);
+  --shadow-pop: 0 8px 16px rgba(42,38,34,0.06), 0 24px 48px rgba(15,61,62,0.14);
+  --container: 1180px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.55; }
+
+/* ... (Add remaining CSS styles from the uploaded file here) ... */
